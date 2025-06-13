@@ -30,6 +30,8 @@ Makefile
 .env
 */.flaskenv
 settings.toml
-.secrets*
 
 */Todo
+
+# Ignore dynaconf secret files
+.secrets.*
