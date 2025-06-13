@@ -6,11 +6,3 @@ repos:
       - id: check-yaml
       - id: check-toml
 
-  - repo: local
-    hooks:
-      - id: task-test
-        name: Rodar testes via task
-        entry: task test
-        language: system
-        types: [python]
-
